@@ -35,8 +35,36 @@
 }
 
 .main {
-    background-color: aqua;
-    height: 600px;
+    background-image: url(../Slicing/assets/main-bg.jpg);
+    background-size: cover;
+}
+
+.main h1 {
+    font-family: "bebas neue";
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.main p {
+    font-family: "open sans";
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+button {
+    font-family: "open sans";
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 50px 10px 50px;
+    background-color: gold;
+    border-radius: 5px;
+    border: none;
 }
 
 .footer-list li {
