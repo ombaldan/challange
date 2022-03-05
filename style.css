@@ -17,3 +17,39 @@
     background-size: cover;
     background-position: center;
 }
+
+.header-title {
+    font-family: "bebas neue", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffff;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.sub-header-title {
+    font-family: "open sans", sans-serif;
+    font-size: 18px;
+    color: #ffff;
+}
+
+.btn {
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button.btn.btn-warning {
+    margin-top: 10px;
+}
+
+.story-scroll-down {
+    color: #ffff;
+    margin-top: 15%;
+    font-family: "open sans", sans-serif;
+    font-size: 12px;
+}
