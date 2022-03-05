@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap');
 
+ /*Header dan Navbar */
 .navbar {
     font-family: "open sans", sans-serif;
     text-decoration: none;
@@ -55,7 +56,9 @@ button.btn.btn-warning {
     font-weight: 700;
     text-align: center;
 }
+/*End Header dan Navbar */
 
+/*Section-2*/
 .second-section {
     background-image: url(../Slicing/assets/the-games-bg.jpg);
     background-size: cover;
@@ -63,15 +66,35 @@ button.btn.btn-warning {
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: "bebas neue", sans-serif;
+    font-weight: bold;
+    color: #ffff;
 }
 
 .so-special {
-    color: #ffff;
-    margin-top: 15%;
-    margin-left: 5%;
-
+    margin-top: 40%;
+    margin-left: 20%;
 }
 
-.carousal {
-   
+.gallery-mini-info {
+    font-size: 24px;
+    text-transform: capitalize;
 }
+
+.gl-h1-info {
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.carousel {
+    padding-top: 13%;
+    margin-right: 70px;
+}
+
+/*End of Section-2*/
+
+/*Section-3*/
+
+
+
+/*End of Section-3*/
