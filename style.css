@@ -13,7 +13,7 @@
 .header {
     background-image: url(..//Slicing/assets/main-bg.jpg);
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -50,7 +50,7 @@ button.btn.btn-warning {
 
 .story-scroll-down {
     color: #ffff;
-    margin-top: 15%;
+    margin-top: 20%;
     font-family: "open sans", sans-serif;
     font-size: 12px;
     font-weight: 700;
@@ -156,7 +156,7 @@ button.btn.btn-warning {
 .system-requirements {
     background-image: url(../Slicing/assets/requirements.png);
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -190,8 +190,8 @@ button.btn.btn-warning {
     color: #ffff;
     font-family: "open sans", sans-serif;
     font-size: 18px;
-    max-width: 50vw !important;
-    max-height: 20vw;
+    max-width: 40vw !important;
+    max-height: 10vw;
 }
 
 .table-reqsyst h2 {
@@ -208,11 +208,11 @@ button.btn.btn-warning {
 .top-scores {
     background-image: url(../Slicing/assets/top-score-bg.png);
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.884);
+    background-color: rgba(0, 0, 0, 0.938);
     font-family: "open sans", sans-serif;
     color: #ffff;
 }
@@ -233,11 +233,12 @@ button.btn.btn-warning {
     font-size: 18px;
 }
 
+/*Testimoni*/
+/*Testimoni Evan*/
 #evan {
-    margin-left: 9rem;
     background-color: #1d1e1ed7;
-    width: 452px;
-    height: 183px;
+    width: 400px;
+    height: auto;
     color: #ffff;
     position: absolute;
     display: flex;
@@ -245,9 +246,97 @@ button.btn.btn-warning {
     word-wrap: break-word;
     background-clip: border-box;
     border-radius: 0.5rem;
-    margin-top: 60px;
-    margin-bottom: 10px;
+    margin-top: 7%;
+    margin-left: 25%;
     line-height: 5px;
-    margin-right: 10px;
 }
-/*End Section 5*/
+
+.card p {
+    font-size: 14px;
+    font-family: "open sans", sans-serif;
+}
+
+.card h3 {
+    color: #FFB548;
+    font-family: "bebas neue", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card .col-2 {
+    width: 50px;
+    height: 50px;
+    padding-right: 0;
+}
+
+.evan-date {
+    padding-top: 20px;
+    font-size: 12px;
+    color: rgb(95, 93, 93);
+}
+
+/*End ofTestimoni Evan*/
+
+/*Testimoni Jada*/
+
+#jada {
+    background-color: #1d1e1ed7;
+    width: 400px;
+    height: auto;
+    color: #ffff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: 0.5rem;
+    margin-top: 22%;
+    margin-left: 10%;
+    line-height: 5px;
+}
+
+.jada-testimoni {
+    line-height: 20px;
+}
+
+.jada-date {
+    padding-top: 20px;
+    font-size: 12px;
+    color: rgb(95, 93, 93);
+}
+
+/*End of Testimoni Jada*/
+
+/*Testimoni Aron*/
+
+#aron {
+    background-color: #1d1e1ed7;
+    width: 400px;
+    height: auto;
+    color: #ffff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: 0.5rem;
+    margin-top: 40%;
+    margin-left: 25%;
+    line-height: 5px;
+}
+
+.aron-testimoni {
+    line-height: 20px;
+}
+
+.aron-date {
+    padding-top: 20px;
+    font-size: 12px;
+    color: rgb(95, 93, 93);
+}
+
+/*End of Testimoni Aron*/
+
+/*End of Testimoni*/
+
+/*End of Section 5*/
